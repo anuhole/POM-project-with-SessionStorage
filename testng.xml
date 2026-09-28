@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Capstone Project With POM" verbose="1">
+
+    <test name ="SmokeTest">
+        <classes>
+<!--            <class name="tests.TestNGDataProviderLogin"></class>-->
+            <class name="setup.GlobalSetupTestNG"></class>
+            <class name="tests.TestNGSaucedemoWebpageViewProductsOnDashBoard"></class>
+            <class name="tests.TestNGSaucedemoWebpageAddCart"></class>
+            <class name="tests.TestNGSaucedemoWebpageCheckout"></class>
+            <class name="tests.TestNGSaucedemoWebpageLogout"></class>
+        </classes>
+    </test>
+</suite>
